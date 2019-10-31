@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "clang++ build active file",
+            "command": "/usr/bin/clang++",
+            "args": [
+                // debug symbols
+                // "-g",
+                "-O3",
+                "-Wall"
+                // libs headers
+                "-I",
+                "${fileDirname}/../libs",
+                "-I",
+                "${fileDirname}/../slicer/export",
+
+                // sources
+                "${fileDirname}/Andromeda.cpp",
+                // lib sources
+                "${fileDirname}/../slicer/*.cc",
+                "${fileDirname}/../libs/AxmlParser/AxmlParser.c",
+                "${fileDirname}/../libs/pugixml/pugixml.cpp",
+                "${fileDirname}/../libs/miniz/miniz.c",
+                "${fileDirname}/../libs/disassambler/dissasembler.cc",
+                
+                // output
+                "-o",
+                "${fileDirname}/../bin/${fileBasenameNoExtension}",
+                // libs
+                "-L",
+                "/usr/lib",
+                "-lz",
+                "-lstdc++fs",
+                "-lcrypto",
+
+                // Target C++ 17
+                "-std=c++1z"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

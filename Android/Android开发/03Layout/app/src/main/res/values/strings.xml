@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">layout</string>
+    <string name="HelloWorld">HelloWorld</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="CheckBox_C">c语言</string>
+    <string name="CheckBox_java">Java语言</string>
+    <string name="CheckBox_CPP">C++语言</string>
+</resources>

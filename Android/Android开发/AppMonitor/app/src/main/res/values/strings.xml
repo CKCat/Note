@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppMonitor</string>
+    <string name="action_settings">Clean</string>
+    <string name="Icon">appIcon</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="begin">begin</string>
+    <string name="save">save</string>
+    <string name="exit">exit</string>
+</resources>

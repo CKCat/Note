@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstActivity</string>
+    <string name="et_msg">Enter a message</string>
+    <string name="btn_send">Send</string>
+    <string name="action_setting">Setting</string>
+
+    <string name="title_activity_display_msg">My Message</string>
+
+</resources>

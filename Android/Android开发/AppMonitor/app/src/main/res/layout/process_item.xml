@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_toRightOf="@id/app_icon"
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="应用名"
+        android:textColor="#1359e4"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/package_name"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignLeft="@id/app_name"
+        android:layout_below="@id/app_name"
+        android:layout_marginBottom="5dp"
+        android:text="应用包名"
+        android:textColor="#9b09a3"/>
+
+    <CheckBox
+        android:id="@+id/isChoose"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>

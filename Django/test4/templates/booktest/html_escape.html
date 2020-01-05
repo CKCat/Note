@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>转义</title>
+</head>
+<body>
+自动转义：{{ context }}
+<hr>
+过滤器safe关闭转义：{{ context|safe }}
+<hr>
+标签autoescape关闭转义：
+{%autoescape off%}
+{{context}}
+{%endautoescape%}
+<hr>
+模板硬编码不转义：{{data|default:'<h1>hello</h1>'}}
+<hr>
+模板硬编码手动转义：{{data|default:"&lt;h1&gt;123&lt;/h1&gt;"}}
+</body>
+</html>

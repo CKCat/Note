@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+</head>
+<body>
+{% load filters %}
+图书列表如下：
+<ul>
+    {% for book in list %}
+        {% if book.btitle|length < 4 %}
+            <li style="background-color: red">
+            {{ book.btitle }}
+            ---默认时间格式
+            {{ book.bpub_date }}
+            </li>
+        {% elif book.id|mod %}
+            <li style="background-color: yellow">
+            {{ book.btitle }}
+            ---默认时间格式
+            {{ book.bpub_date }}
+        {% elif book.id|mod_num:3 %}
+            <li style="background-color: cornflowerblue">
+            {{ book.btitle }}
+            ---默认时间格式
+            {{ book.bpub_date }}
+        {% else %}
+            <li style="background-color: greenyellow">
+            {{ book.btitle }}
+            ---格式化时间
+            {{ book.bpub_date|date:"Y-m-j" }}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+</body>
+</html>

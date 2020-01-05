@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签</title>
+</head>
+<body>
+图书列表如下：
+<ul>
+    {% for book in list %}
+        {% if book.id <= 2 %}
+            <li style="background-color: red">{{ book.btitle }}</li>
+        {% elif book.id <= 4 %}
+             <li style="background-color: blue">{{ book.btitle }}</li>
+        {% else %}
+             <li style="background-color: greenyellow">{{ book.btitle }}</li>
+        {% endif %}
+        {% empty %}
+            <li>对不起，没有图书</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

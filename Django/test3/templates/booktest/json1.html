@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+
+    <script src = "/static/js/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#btnjson').click(function () {
+                $.get('/json2/', function (data) {
+                    ul = $('#jsonList');
+                    ul.append('<li>' + data['h1'] + '</li>')
+                    ul.append('<li>' + data['h2'] + '</li>')
+                })
+            })
+        })
+    </script>
+
+</head>
+<body>
+<input type="button" id="btnjson" value="获取json数据">
+<ul id="jsonList"></ul>
+</body>
+</html>

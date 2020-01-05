@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+1. requset 对象的path, encoding属性：<br/>
+{{ str }}
+
+
+2.request对象的method属性：<br/>
+<a href='/method_show/'>get方式</a><br/>
+<form method="post" action="/method_show/">
+    <input type="submit" value="post方式">
+</form>
+
+3. 提交数据的两种方式：
+<br/>
+get 方式：<br/>
+<a href="/show_regarg/?a=1&b=2&c=python">get方式提交数据</a>
+
+<br/>
+post 方式：<br/>
+<form method="post" action="/show_regarg/">
+    姓名：<input type="text" name = 'name'><br/>
+    性别：男<input type="radio" name="gender", value="男">
+         女<input type="radio" name="gender", value="女"><br/>
+    爱好：
+    吃饭<input type="checkbox" name="hobby" value="吃饭">
+    睡觉<input type="checkbox" name="hobby" value="睡觉">
+    打豆豆<input type="checkbox" name="hobby" value="打豆豆"><br/>
+    <input type="submit" value="提交">
+</form>
+<br/>
+</body>
+</html>

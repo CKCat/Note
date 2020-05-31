@@ -2,32 +2,32 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "hello.c"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 1
-# 49 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h" 1
-# 77 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h" 1
-# 78 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h" 2
-# 547 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/android/api-level.h" 1
-# 548 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h" 2
-# 50 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 1
-# 31 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
-# 1 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
-# 147 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 3 4
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 1
+# 49 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h" 1
+# 77 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h" 1
+# 78 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h" 2
+# 547 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/android/api-level.h" 1
+# 548 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h" 2
+# 50 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 1
+# 31 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
+# 1 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
+# 147 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 3 4
 typedef long int ptrdiff_t;
-# 212 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 3 4
+# 212 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 3 4
 typedef long unsigned int size_t;
-# 324 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 3 4
+# 324 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 32 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h" 1
-# 32 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h"
-# 1 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
-# 33 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h" 2
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/machine/wchar_limits.h" 1
-# 34 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h" 2
+# 32 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h" 1
+# 32 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h"
+# 1 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
+# 33 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h" 2
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/machine/wchar_limits.h" 1
+# 34 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdint.h" 2
 
 typedef signed char __int8_t;
 typedef unsigned char __uint8_t;
@@ -98,22 +98,22 @@ typedef uint64_t uint_fast32_t;
 
 typedef uint64_t uintmax_t;
 typedef int64_t intmax_t;
-# 33 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
+# 33 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
 
 
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h" 1
-# 21 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/types.h" 1
-# 19 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/types.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h" 1
-# 21 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h" 1
-# 21 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h" 1
-# 22 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/bitsperlong.h" 1
-# 23 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h" 2
-# 22 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h" 2
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h" 1
+# 21 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/types.h" 1
+# 19 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/types.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h" 1
+# 21 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h" 1
+# 21 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h" 1
+# 22 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/bitsperlong.h" 1
+# 23 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h" 2
+# 22 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h" 2
 
 
 typedef __signed__ char __s8;
@@ -127,18 +127,18 @@ typedef unsigned int __u32;
 __extension__ typedef __signed__ long long __s64;
 
 __extension__ typedef unsigned long long __u64;
-# 22 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h" 2
-# 19 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/types.h" 2
-# 22 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h" 2
+# 22 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h" 2
+# 19 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/types.h" 2
+# 22 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h" 2
 
 
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h" 1
-# 21 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/stddef.h" 1
-# 19 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/stddef.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/compiler.h" 1
-# 19 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/stddef.h" 2
-# 22 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h" 2
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h" 1
+# 21 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/stddef.h" 1
+# 19 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/stddef.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/compiler.h" 1
+# 19 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/stddef.h" 2
+# 22 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h" 2
 
 
 
@@ -149,10 +149,10 @@ typedef struct {
 typedef void (*__kernel_sighandler_t)(int);
 typedef int __kernel_key_t;
 typedef int __kernel_mqd_t;
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h" 1
-# 19 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h"
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h" 1
-# 24 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h" 1
+# 19 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h" 1
+# 24 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h"
 typedef long __kernel_long_t;
 typedef unsigned long __kernel_ulong_t;
 
@@ -196,7 +196,7 @@ typedef __kernel_gid_t __kernel_old_gid_t;
 
 
 typedef unsigned int __kernel_old_dev_t;
-# 76 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h"
+# 76 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h"
 typedef __kernel_ulong_t __kernel_size_t;
 typedef __kernel_long_t __kernel_ssize_t;
 
@@ -221,9 +221,9 @@ typedef char * __kernel_caddr_t;
 typedef unsigned short __kernel_uid16_t;
 
 typedef unsigned short __kernel_gid16_t;
-# 19 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h" 2
-# 33 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h" 2
-# 25 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h" 2
+# 19 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h" 2
+# 33 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h" 2
+# 25 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/linux/types.h" 2
 
 
 typedef __u16 __le16;
@@ -236,7 +236,7 @@ typedef __u64 __le64;
 typedef __u64 __be64;
 typedef __u16 __sum16;
 typedef __u32 __wsum;
-# 36 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
+# 36 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
 
 
 
@@ -293,17 +293,17 @@ typedef uint64_t dev_t;
 
 typedef __kernel_time_t __time_t;
 typedef __time_t time_t;
-# 101 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
+# 101 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
 typedef __kernel_off_t off_t;
 typedef off_t loff_t;
 typedef loff_t off64_t;
-# 125 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
+# 125 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
 typedef uint32_t __socklen_t;
 
 typedef __socklen_t socklen_t;
 
 typedef __builtin_va_list __va_list;
-# 138 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
+# 138 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h"
 typedef __kernel_ssize_t ssize_t;
 
 
@@ -311,8 +311,8 @@ typedef unsigned int uint_t;
 typedef unsigned int uint;
 
 
-# 1 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/sysmacros.h" 1
-# 36 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/sysmacros.h"
+# 1 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/sysmacros.h" 1
+# 36 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/sysmacros.h"
 static __inline__ int major(dev_t _dev)
 {
   return (_dev >> 8) & 0xfff;
@@ -327,7 +327,7 @@ static __inline__ dev_t makedev(int __ma, int __mi)
 {
   return ((__ma & 0xfff) << 8) | (__mi & 0xff) | ((__mi & 0xfff00) << 12);
 }
-# 146 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
+# 146 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/sys/types.h" 2
 
 
 typedef unsigned char u_char;
@@ -339,30 +339,30 @@ typedef uint32_t u_int32_t;
 typedef uint16_t u_int16_t;
 typedef uint8_t u_int8_t;
 typedef uint64_t u_int64_t;
-# 51 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
+# 51 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
 
-# 1 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stdarg.h" 1 3 4
-# 40 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stdarg.h" 3 4
+# 1 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stdarg.h" 1 3 4
+# 40 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 98 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stdarg.h" 3 4
+# 98 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stdarg.h" 3 4
 typedef __gnuc_va_list va_list;
-# 53 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
-# 1 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
-# 54 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
+# 53 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
+# 1 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
+# 54 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
 
 
-# 1 "e:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
-# 57 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
+# 1 "d:\\android\\sdk\\ndk-bundle\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\lib\\gcc\\aarch64-linux-android\\4.9.x\\include\\stddef.h" 1 3 4
+# 57 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h" 2
 
 
 
 typedef off_t fpos_t;
-# 70 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
+# 70 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
 struct __sbuf {
   unsigned char* _base;
   size_t _size;
 };
-# 108 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
+# 108 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
 typedef struct __sFILE {
  unsigned char *_p;
  int _r;
@@ -405,7 +405,7 @@ typedef struct __sFILE {
 
 extern FILE __sF[];
 
-# 219 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
+# 219 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
 
 void clearerr(FILE *);
 int fclose(FILE *);
@@ -495,7 +495,7 @@ int vsscanf(const char * __restrict, const char * __restrict, __va_list)
 
 
 
-# 316 "E:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
+# 316 "D:/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/include/stdio.h"
 
 FILE *fdopen(int, const char *);
 int fileno(FILE *);
@@ -551,9 +551,24 @@ FILE *funopen(const void *,
   int (*)(void *));
 
 # 2 "hello.c" 2
-
-int main(int argc, char const *argv[])
+# 10 "hello.c"
+int add(int i, int j)
 {
-    printf("Hello World!\r\n");
-    return 0;
+  int res = 0;
+  __asm ("ADD %[result], %[input_i], %[input_j]"
+    : [result] "=r" (res)
+    : [input_i] "r" (i), [input_j] "r" (j)
+  );
+  return res;
+}
+
+int main(void)
+{
+  int a = 1;
+  int b = 2;
+  int c = 0;
+
+  c = add(a,b);
+
+  printf("Result of %d + %d = %d\n", a, b, c);
 }

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>展示富文本编辑器内容</title>
+</head>
+<body>
+id:{{ g.id }}
+<hr>
+{% autoescape off %}
+{{ g.gcontent }}
+{% endautoescape %}
+<hr>
+{{ g.gcontent|safe }}
+
+</body>
+</html>

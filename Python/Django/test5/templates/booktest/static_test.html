@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>静态文件</title>
+</head>
+<body>
+修改前：<img src="/static/img/sg.jpeg">
+<hr>
+修改后：<img src="/abc/img/sg.jpeg">
+<hr>
+动态配置：
+{% load static from staticfiles %}
+<img src="{% static "img/sg.jpeg" %}">
+</body>
+</html>

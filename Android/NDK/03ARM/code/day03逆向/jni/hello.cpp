@@ -1,65 +1,55 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(int argc,char* argv[]){
+#include <string.h>
 
-	for(int i = 0; i < 9; i++){
-		printf("for");
-	}
-	// int i = argc / -4;
-	// printf("i = %d\n",i);
-	// i = argc / 3;
-	// printf("i = %d\n",i);
-	// i = argc / 5;
-	// printf("i = %d\n",i);
+ 
 
-	// if(argc > 1){
-	// 	printf("argc > 1");
-	// }else if(argc == 1){
-	// 	printf("argc == 1");
-	// }else{
-	// 	printf("argc < 1");
-	// }
+int main()
 
-	// printf("swith case begin");
-	// switch(argc){
-	// case 0:
-	// 	printf("argc = 0");
-	// 	break;
-	// case 1:
-	// 	printf("argc = 1");
-	// 	break;
-	// case 5:
-	// 	printf("argc = 5");
-	// 	break;
-	// case 6:
-	// 	printf("argc = 6");
-	// 	break;
-	// case 8:
-	// 	printf("argc = 8");
-	// 	break;
-	// case 9:
-	// 	printf("argc = 9");
-	// 	break;
-	// }
-	// switch(argc){
-	// case 0:
-	// 	printf("argc = 0");
-	// 	break;
-	// case 30:
-	// 	printf("argc = 30");
-	// 	break;
-	// case 50:
-	// 	printf("argc = 50");
-	// 	break;
-	// case 80:
-	// 	printf("argc = 80");
-	// 	break;
-	// case 100:
-	// 	printf("argc = 100");
-	// 	break;
-	// case 200:
-	// 	printf("argc = 200");
-	// 	break;
-	// }
-	// return 0;
+{
+
+    int i,j;
+
+    char buf[256]={0};
+
+    char* pp = buf;
+
+ 
+
+    printf("buf addr= 0x%x/r/n",buf);
+
+    for(i=0;i<16;i++)
+
+    {
+
+        printf("addr = 0x%x ~ 0x%x/r/n",pp+i*16,pp+i*16+15);
+
+        for(j=0;j<16;j++)
+
+            *(pp+i*16+j)=i*16+j;
+
+    }
+
+ 
+
+    printf("ASCII table:/n");
+
+    for(i=0;i<16;i++)
+
+    {
+
+        for(j=0;j<16;j++)
+
+            printf("%c  ", *(pp+i*16+j));
+
+        printf("/n");
+
+    }
+
+   
+
+    return 0;
+
+ 
+
 }

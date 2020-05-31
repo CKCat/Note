@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>分页</title>
+</head>
+<body>
+显示当前页的地区信息：<br>
+<ul>
+{%for area in list_page%}
+<li>{{area.id}}--{{area.atitle}}</li>
+{%endfor%}
+</ul>
+<hr>
+显示页码信息：当前页码没有链接，其它页码有链接<br>
+{%for pindex in plist%}
+    {%if pIndex == pindex%}
+        {{pindex}}&nbsp;&nbsp;
+    {%else%}
+        <a href="/page{{pindex}}/">{{pindex}}</a>&nbsp;&nbsp;
+    {%endif%}
+{%endfor%}
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>验证码</title>
+</head>
+<body>
+<form method="post" action="/verify_yz/">
+    {% csrf_token %}
+    <input type="text" name="yanzhengma">
+    <img id="yzm" src="/verify_code/">
+    <span id = "change">
+        <a href="/verify_change/">看不清，换一个</a>
+    </span>
+
+    <br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

@@ -2,12 +2,10 @@
 MODALE_NAME=hello
 
 #ndk根目录
-NDK_ROOT=E:/Android/Sdk/ndk-bundle
-
+NDK_ROOT = D:/Android/Sdk/ndk-bundle
 #编译器根目录
 TOOLCHAINS_ROOT_ARM=$(NDK_ROOT)/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64
 TOOLCHAINS_ROOT_AARCH64=$(NDK_ROOT)/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64
-
 #编译器目录
 TOOLCHAINS_PREFIX=$(TOOLCHAINS_ROOT_ARM)/bin/arm-linux-androideabi
 TOOLCHAINS_PREFIX_AARCH64=$(TOOLCHAINS_ROOT_AARCH64)/bin/aarch64-linux-android
@@ -49,7 +47,8 @@ FLAGS_AARCH64=-I$(TOOLCHAINS_INCLUDE_AARCH64) \
       -nostdlib \
       -lgcc \
       -Bdynamic \
-      -lc 
+      -lc \
+      -fPIE
 
 #所有obj文件
 OBJS=$(MODALE_NAME).o \
@@ -62,8 +61,8 @@ OBJS_AARCH64=$(MODALE_NAME)64.o \
 
 #编译器链接
 all:
-	# $(TOOLCHAINS_PREFIX)-gcc $(FLAGS) -E $(MODALE_NAME).c -o $(MODALE_NAME).i
-	# $(TOOLCHAINS_PREFIX)-gcc $(FLAGS)  -S $(MODALE_NAME).i -o $(MODALE_NAME).s
+	$(TOOLCHAINS_PREFIX)-gcc $(FLAGS) -E $(MODALE_NAME).c -o $(MODALE_NAME).i
+	$(TOOLCHAINS_PREFIX)-gcc $(FLAGS)  -S $(MODALE_NAME).i -o $(MODALE_NAME).s
 	$(TOOLCHAINS_PREFIX)-gcc $(FLAGS) -c $(MODALE_NAME).s -o $(MODALE_NAME).o
 	$(TOOLCHAINS_PREFIX)-gcc $(FLAGS) $(OBJS) -fPIE -pie -o $(MODALE_NAME)
 
@@ -71,7 +70,7 @@ all64:
 	# $(TOOLCHAINS_PREFIX_AARCH64)-gcc $(FLAGS_AARCH64) -E $(MODALE_NAME).c -o $(MODALE_NAME)64.i
 	# $(TOOLCHAINS_PREFIX_AARCH64)-gcc $(FLAGS_AARCH64)  -S $(MODALE_NAME)64.i -o $(MODALE_NAME)64.s
 	$(TOOLCHAINS_PREFIX_AARCH64)-gcc $(FLAGS_AARCH64) -c $(MODALE_NAME)64.s -o $(MODALE_NAME)64.o
-	$(TOOLCHAINS_PREFIX_AARCH64)-gcc $(FLAGS_AARCH64) $(OBJS_AARCH64) -o $(MODALE_NAME)64
+	$(TOOLCHAINS_PREFIX_AARCH64)-gcc $(FLAGS_AARCH64) $(OBJS_AARCH64) -fPIE -pie -o $(MODALE_NAME)64
 #删除所有.o文件
 clean:
 	$(RM) *.o
